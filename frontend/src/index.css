@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --paper: #f8f3ea;
+  --paper-soft: #efe7d8;
+  --ink: #1f1d1a;
+  --muted: #6f675d;
+  --line: #ded2c0;
+  --brand: #295142;
+  --brand-dark: #183a30;
+  --accent: #c6844f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.font-display {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+::selection {
+  background: #295142;
+  color: #ffffff;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(41, 81, 66, 0.35);
+  outline-offset: 3px;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+.soft-shadow {
+  box-shadow: 0 24px 80px rgba(31, 29, 26, 0.08);
+}
+
+.card-shadow {
+  box-shadow: 0 14px 40px rgba(31, 29, 26, 0.06);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #efe7d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbbba3;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a99478;
+}
