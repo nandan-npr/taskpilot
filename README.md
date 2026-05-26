@@ -8,9 +8,9 @@ The project goes beyond a basic task manager by adding task health indicators, p
 
 ## Live Links
 
-Frontend Live Link: Add after deployment  
-Backend Live Link: Add after deployment  
-GitHub Repository: Add after pushing to GitHub
+Frontend Live Link: https://taskpilot-six-mu.vercel.app  
+Backend Live Link: https://taskpilot-backend-gsja.onrender.com  
+GitHub Repository: https://github.com/nandan-npr/taskpilot
 
 ---
 
