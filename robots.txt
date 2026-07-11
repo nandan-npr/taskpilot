@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://taskpilot.vercel.app/sitemap.xml
