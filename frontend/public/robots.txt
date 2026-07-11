@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://taskpilot.vercel.app/sitemap.xml
+Sitemap: https://taskpilot-six-mu.vercel.app/sitemap.xml
